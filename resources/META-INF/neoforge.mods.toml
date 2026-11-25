@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+[[mods]]
+modId="ae2emiterminal"
+version="1.2.0"
+displayName="AE2 EMI Terminal"
+description="ME network inventory and crafting grid transfer for EMI."
+[[mixins]]
+config="ae2emiterminal.client.mixins.json"
+[[dependencies.ae2emiterminal]]
+modId="ae2"
+type="required"
+versionRange="[26.3.2-alpha]"
+side="CLIENT"
+[[dependencies.ae2emiterminal]]
+modId="emi"
+type="required"
+versionRange="[2,)"
+side="CLIENT"
+[[dependencies.ae2emiterminal]]
+modId="ae2wtlib"
+type="required"
+versionRange="[26.3.2-beta]"
+side="CLIENT"

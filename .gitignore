@@ -1,0 +1,8 @@
+# Build artifacts
+build/
+
+# Local build state
+compile.args
+
+# Local build script (contains machine-specific paths)
+build.ps1
